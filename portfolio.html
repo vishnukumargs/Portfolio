@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./portfolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Acme&family=Catamaran:wght@100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0e9c00a5ea.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/c9707bbaba.js" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <nav>
+        <ul class="sidebar">
+            <li onclick=closesidebar()><a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                        fill="#F5F5F5">
+                        <path
+                            d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                    </svg>
+                </a></li>
+            <li><a href="#main-content">About me</a></li>
+            <li><a href="#container">Skills</a></li>
+            <li><a href="#studies-topic">Studies</a></li>
+            <li><a href="#project-topic">Projects</a></li>
+            <li><a href="#Reachout">Lets Connect</a></li>
+        </ul>
+        <ul>
+            <li><a href="#">Portfolio</a></li>
+            <li class="hideonmobile"><a href="#main-content">About me</a></li>
+            <li class="hideonmobile"><a href="#container">Skills</a></li>
+            <li class="hideonmobile"><a href="#studies-topic">Studies</a></li>
+            <li class="hideonmobile"><a href="#project-topic">Projects</a></li>
+            <li class="hideonmobile"><a href="#Reachout">Lets Connect</a></li>
+            <li class="logo" onclick=showsidebar()>
+                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px"
+                    fill="#F5F5F5">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </li>
+        </ul>
+    </nav>
+    <div id="main-content">
+        <div id="about">
+            <div id="vish">
+                <h2 id="heading" class="font">Vishnu kumar</h2>
+                <h3 id="fontend" class="font">Frontend Developer</h3>
+            </div>
+            <div id="about-me">
+                <h3 style="color: #FF2929;">About Me</h3>
+                <h5>Hi! I'm Vishnu, a passionate frontend developer with a knack for turning designs into interactive,
+                    responsive, and visually appealing web experiences. With a solid understanding of modern web
+                    technologies, I specialize in creating seamless user interfaces that not only look great but
+                    function flawlessly across devices......<i class="fa-solid fa-heart" style="color: red;"></i></h5>
+            </div>
+        </div>
+        <img src="./assets/images/IMG_0809.png" alt="" id="my-img">
+    </div>
+    <div id="container">
+        <div class="right-section">
+            <h2>Skills I know!</h2>
+            <div class="skills">
+                <div class="skill">
+                    <p>HTML</p>
+                    <div class="progress-bar" style="width: 100%;"></div>
+                </div>
+                <div class="skill">
+                    <p>CSS</p>
+                    <div class="progress-bar" style="width: 90%;"></div>
+                </div>
+                <div class="skill">
+                    <p>JavaScript</p>
+                    <div class="progress-bar" style="width: 85%;"></div>
+                </div>
+                <div class="skill">
+                    <p>React</p>
+                    <div class="progress-bar" style="width: 50%;"></div>
+                </div>
+            </div>
+            <div class="buttons">
+                <a download href="./assets/VishnukumarGS.CV.pdf"><button class="btn btn-hire">Hire Me!</button></a>
+                <a href="#main-content"><button class="btn btn-about">About Me</button></a>
+            </div>
+        </div>
+    </div>
+    <div id="studies-topic">
+        <h1 class="head-studies">Studies</h1>
+    </div>
+    <div id="studies">
+
+        <div id="school-parent">
+            <img src="./assets/images/school.jpg" alt="School " class="studies-img">
+            <h4>Setupathi Higher Secondary School</h4>
+            <h4>Percentage : 67</h4>
+
+        </div>
+        <div id="diploma-parent">
+            <img src="./assets/images/college.jpg" alt="School " class="studies-img">
+            <h4>KLN Polytechnic College</h4>
+            <h4>Percentage : 85</h4>
+        </div>
+        <div id="degree-parent">
+            <img src="./assets/images/degree.jpg" alt="School " class="studies-img">
+            <h4>PSNA College of Engineering</h4>
+            <h4>Percentage : 70</h4>
+        </div>
+    </div>
+
+
+    <div id="project-topic">
+        <h1 class="head-studies">Projects</h1>
+    </div>
+    <div id="project">
+
+        <div id="project-tune">
+            <a href="http://127.0.0.1:5500/My%20Tunes/HTML/mytunes.html" target="_parent">
+                <img src="./assets/images/TuneImg.jpg" alt="" class="pro">
+            </a>
+        </div>
+        <div id="pro-StyledConference">
+            <a href="http://127.0.0.1:5500/StyledConference/HTML/Home.html" target="_parent">
+                <img src="./assets/images/StyleConference.png" alt="" class="pro">
+            </a>
+        </div>
+        <div id="pro-AddToCart">
+            <a href="http://127.0.0.1:5500/AddToCart/HTML/index.html" target="_parent">
+                <img src="./assets/images/AddToCart.png" alt="" class="pro">
+            </a>
+        </div>
+    </div>
+    <div id="Reachout">
+        <div class="lets-connect">
+            <h1 class="head-studies">Let's connect</h1>
+        </div>
+        <section id="section-tag">
+            <div id="contact-container">
+                <form action="" id="contact-Form" class="forms" onSubmit="sub()">
+                    <input type="text" id="input-field" required name="peru" placeholder="Your Name">
+                    <br><br>
+                    <input type="email" id="input-field" name="email" placeholder="Your Email">
+                    <br><br>
+                    <input type="number" name="number" id="input-field" placeholder="Your Contact">
+                    <br><br>
+                    <textarea name="message" required id="message" row="80" cols="100"
+                        placeholder="Your Message"></textarea>
+                    <div class="connect-btn">
+                        <button id="saveButton" type="submit">Lets Connect</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <p class="copyright">&#169; &emsp13; VishnukumarGS</p>
+            <div class="social-icons">
+                <a href="https://www.instagram.com/i_vis_x/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/vishnukumar-gs-778653301" target="_blank"
+                    rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/vishnukumargs/Portfolio" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=vishnukumargs08@gmail.com&su=Hello%20Vishnu&body=Hi%20there,%20I%20would%20like%20to%20connect!"
+                    target="_blank">
+                    <i class="fa-solid fa-envelope"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="./portfolio.js"></script>
+</body>
+
+</html>
