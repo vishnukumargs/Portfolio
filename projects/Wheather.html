@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>District Weather </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./../Css/Wheather.css">
+</head>
+<body style="display: flex; flex-wrap: wrap;" >
+    <!-- <marquee id="marquee" behavior="" direction="right" style="font-size: 20px;">Welcome To Weather App</marquee> --->
+
+    <div id="body" >
+        <!-- <marquee behavior="" direction="" style="font-size: 20px;">Welcome To Weather App</marquee> -->
+        <div id="child-one">
+            <div id="top">
+                <span><i id="sounds" class="fa-solid fa-grip-lines"></i><i class="fa-solid fa-grip-lines"></i></span>
+            </div>
+            <select name="Enter location" id="select">
+                <option  value="">Search you CITY Weather</option>
+                <option value="Ariyalur">ariyalur</option>
+                <option value="chengalpattu">chengalpattu</option>
+                <option value="chennai">chennai</option>
+                <option value="coimbatore">coimbatore</option>
+                <option value="cuddalore">cuddalore</option>
+                <option value="dharmapuri">dharmapuri</option>
+                <option value="dindigul">dindigul</option>
+                <option value="erode">erode</option>
+                <!-- <option value="Kallakuruchi">Kallakuruchi</option> -->
+                <option value="kanchipuram">kanchipuram</option>
+                <option value="karur">Karur</option>
+                <option value="krishnagiri">krishnagiri</option>
+                <option value="madurai">Madurai</option>
+                <option value="mayiladuthurai">mayiladuthurai</option>
+                <option value="Nagapattinam">Nagapattinam</option>
+                <option value="Nagercoil">Nagercoil</option>
+                <option value="Namakkal">Namakkal</option>
+                <option value="Perambalur">Perambalur</option>
+                <option value="Pudukkottai">Pudukkottai</option>
+                <option value="Ramanathapuram">Ramanathapuram</option>
+                <!-- <option value="Ranipet">Ranipet</option> -->
+                <option value="Salem">Salem</option>
+                <!-- <option value="Sivagangai">Sivagangai</option> -->
+                <option value="Tenkasi">Tenkasi</option>
+                <option value="Thanjavur">Thanjavur</option>
+                <option value="Theni">Theni</option>
+                <option value="Thiruvallur">Thiruvallur</option>
+                <option value="Thiruvarur">Thiruvarur</option>
+                <option value="Thoothukudi">Thoothukudi</option>
+                <option value="Tiruchirappalli">Tiruchirappalli</option>
+                <option value="Tirunelveli">Tirunelveli</option>
+                <option value="Tirupathur">Tirupathur</option>
+                <option value="Tiruppur">Tiruppur</option>
+                <option value="Tiruvannamalai">Tiruvannamalai</option>
+                <option value="Udagamandalam">Udagamandalam</option>
+                <option value="Vellore">Vellore</option>
+                <option value="Villupuram">Villupuram</option>
+                <option value="Virudhunagar">Virudhunagar</option>
+            </select>
+            <!-- <button id="click-me">click me </button> -->
+            <div id="place">Location</div>
+            <div id="temp-flex">
+            <div id="temp" style="display: flex;">00</div> 
+            <div id="logo"><i class="fa-regular fa-circle"></i></div>
+            </div>
+            <!-- <div id="temp" style="display: flex;">00<div id="logo" style="font-size: 20px; display: none;"><i class="fa-regular fa-circle"></i></div></div>  -->
+            <div id="logoParent">
+                <div id="sunlogo"><img id="suns" src="./../images copy/sunlogo.webp" alt=""></div>
+                <div><img id="rainylogo" src="./../images copy/rain.webp" alt=""></div>
+                <div ><img id="thunderlogo" src="./../images copy/thunder.webp" alt=""></div>
+            </div>
+          
+            <div id="buttons">
+                <span id="phone"><i class="fa-solid fa-phone"></i></span>
+                <span id="round"><i class="fa-solid fa-circle"></i></span>
+                <span id="play"><i class="fa-solid fa-play"></i></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./../Js/Wheather.js"></script>
+</body>
+</html>

@@ -1,0 +1,265 @@
+#header{
+    /* border: 1px solid black; */
+    height: 170px;
+    width: 100%;
+    background-color: #293f50;
+    position: relative;
+}
+
+h1{
+    width: 320px;
+    color: white;
+    font-family: arial;
+    font-size: 46px;
+    font-weight: lighter;
+    margin-left: 210px;
+    position: relative;
+    cursor: pointer;
+}
+
+h1:hover{
+    color: #648880;
+}
+
+#p1{
+    display: flex;
+    font-family: arial;
+    font-size: 21px;
+    color: #648880;
+    font-weight:normal;
+    position: absolute;
+    left: 828px;
+    top: 38px;
+}
+
+#flex-container{
+    display: flex;
+    flex-direction: row;
+    gap: 22px;
+    position: absolute;
+    top: 90px;
+    left: 705px;
+}
+
+.text{
+    font-family: arial;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+} 
+
+.text:hover{
+    color: #648880;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+
+#content{
+    border: 1px solid #a1d3b0;
+    height: 218px;
+    width: 100%;
+    background-color: #a1d3b0;
+}
+
+#head{
+    font-family: arial;
+    font-size: 36px;
+    /* text-align: center; */
+    margin-left: 625px;
+    margin-top: 45px;
+    color: gray
+}
+
+#para{
+    color: gray;
+    font-family: arial;
+    font-size: 20px;
+    width: 820px;
+    text-align: center;
+    margin-left: 270px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+#mid-content{
+    /* border: 1px solid black; */
+    background-color: white;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+#sec1{
+    /* border: 1px solid black; */
+    /* height: 60vh; */
+    width: 47%;
+    margin-left: 210px;
+    /* margin-top: 60px; */
+}
+
+#head2{
+    font-family: arial;
+    font-size: 24px;
+    color: gray;
+    /* text-align: start; */
+    margin-top: 70px;
+    margin-left: 0px;    
+}
+
+#p2{
+    color: rgb(158, 157, 157);
+    font-family: arial;
+    font-size: 14px;
+}
+
+#p3{
+    font-family: arial;
+    color: rgb(145, 138, 138);
+    margin-top:30px;
+    word-spacing: 2px;
+}
+
+#p4{
+    font-family: arial;
+    font-size: 18px;
+    color: rgb(153, 148, 148);
+    margin-top: 30px;
+}
+
+#unorder-list{
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(145, 138, 138);
+}
+#sec2{
+    /* border: 1px solid black; */
+    /* height: 80vh; */
+    width: 35%;
+    /* margin-top: 25px; */
+}
+
+#nam1{
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(153, 148, 148);
+    margin-top: 70px;
+    margin-left: 0px;
+    display: flex;
+}
+
+#name{
+    border: 1px solid rgb(153, 148, 148);
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#mail{
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(153, 148, 148);
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+}
+
+#email{
+    border: 1px solid rgb(153, 148, 148);
+    height: 25px;
+    width: 200px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#num{
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(153, 148, 148);
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+}
+
+#nop{
+    border: 1px solid rgb(153, 148, 148);
+    height: 25px;
+    width: 50px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#com{
+    font-family: arial;
+    font-size: 16px;
+    color: rgb(153, 148, 148);
+    margin-top: 10px;
+    margin-left: 0px;
+    display: flex;
+}
+
+#comment{
+    border: 1px solid rgb(153, 148, 148);
+    /* height: 100px; */
+    padding-bottom: 60px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+#submit{
+    background-color: #648880;
+    border: 1px solid rgb(153, 148, 148);
+    height: 45px;
+    width: 140px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+}
+
+#submit:hover{
+    opacity: 0.8;
+}
+
+#footer{
+    position: relative;
+    border: 1px solid #293f50;
+    background-color: #293f50;
+    height: 120px;
+    width: 100%;
+}
+
+#p5{
+    font-family: arial;
+    font-size: 14px;
+    color: #648880;
+    margin-left: 220px;
+    margin-top: 50px;
+}
+
+#flex-container2{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    position: absolute;
+    bottom: 40px;
+    left: 785px;
+}
+
+.text2{
+    font-family: arial;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+} 
+
+.text2:hover{
+    color: #648880;
+}
